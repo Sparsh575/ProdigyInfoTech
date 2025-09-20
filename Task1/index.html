@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">WebDevCo</div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Professional Web Development</h1>
+      <p>Build fast, responsive, and modern websites.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">Frontend Development</div>
+      <div class="card">Backend Development</div>
+      <div class="card">SEO Optimization</div>
+    </div>
+  </section>
+  
+<button id="menu-toggle" class="menu-btn">☰</button>
+
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a passionate team of developers creating user-friendly digital solutions.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WebDevCo. All rights reserved.</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
